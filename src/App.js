@@ -28,11 +28,10 @@ const App = () => {
   };
 
   const filteredProperties = properties.filter(property => {
-    return (
-      (!filters.location || property.location.toLowerCase().includes(filters.location.toLowerCase())) &&
-      (!filters.price || property.price <= parseInt(filters.price)) &&
-      (!filters.bedrooms || property.bedrooms === parseInt(filters.bedrooms))
-    );
+    const locationFilter = filters.location ? property.location?.toLowerCase().includes(filters.location.toLowerCase()) : true;
+    const priceFilter = filters.price ? property.price <= parseInt(filters.price) : true;
+    const bedroomsFilter = filters.bedrooms ? property.bedrooms === parseInt(filters.bedrooms) : true;
+    return locationFilter && priceFilter && bedroomsFilter;
   });
 
   return (
