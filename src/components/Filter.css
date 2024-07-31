@@ -1,0 +1,40 @@
+.filter {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group {
+    margin-bottom: 15px;
+  }
+  
+  .filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-group input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .filter-group input:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+
+  

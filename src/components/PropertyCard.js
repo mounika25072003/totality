@@ -3,7 +3,8 @@ import './PropertyCard.css';
 
 const PropertyCard = ({ property, onAddToCart }) => (
   <div className="property-card">
-    <img src={property.image} alt={property.title} />
+    <div className='ima'>
+    <img src={property.image} alt={property.title} /> </div>
     <h3>{property.title}</h3>
     <p>{property.description}</p>
     <p>${property.price}</p>

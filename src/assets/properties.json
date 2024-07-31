@@ -1,23 +1,30 @@
 [
-    {
-      "id": 1,
-      "image": "property1.jpg",
-      "title": "Beautiful Family House",
-      "description": "A beautiful house in the city center.",
-      "price": 250,
-      "location": "New York",
-      "bedrooms": 3
-    },
-    {
-      "id": 2,
-      "image": "property2.jpg",
-      "title": "Modern Apartment",
-      "description": "A modern apartment with great amenities.",
-      "price": 300,
-      "location": "San Francisco",
-      "bedrooms": 2
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Beautiful Apartment",
+    "description": "A beautiful apartment in the city center.",
+    "price": 120,
+    "image": "https://media.istockphoto.com/id/1395790401/photo/home-bedroom-interior-mock-up-with-green-bed-bedside-tables-with-empty-white-wood-wall.jpg?s=2048x2048&w=is&k=20&c=35N9WTVzCaM764QFTS9TvrJqOJcQakAoNPdDhnClE5Q="
+  },
+  {
+    "id": 2,
+    "title": "Cozy Cottage",
+    "description": "A cozy cottage in the countryside.",
+    "price": 80,
+    "image": "https://media.istockphoto.com/id/1454697447/photo/black-luxury-modern-retro-style-master-bedroom.jpg?s=2048x2048&w=is&k=20&c=LJ4xzU_GiAlCBrH4YgYWCmW1v-0CQDue20hBAc8Cqbk="
+  },
+  {
+    "id": 3,
+    "title": "Luxury Villa",
+    "description": "A luxurious villa with a private pool.",
+    "price": 300,
+    "image": "https://media.istockphoto.com/id/690131232/photo/interviews-of-hotel-room.jpg?s=2048x2048&w=is&k=20&c=4MyLnynD5IItpWH1afY8lULjmKO7wINq6H2koV1hU8I="
+  }
+]
 
-  
-  
+
+
+
+
+
+
