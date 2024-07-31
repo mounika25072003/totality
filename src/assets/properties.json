@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "image": "property1.jpg",
+      "title": "Beautiful Family House",
+      "description": "A beautiful house in the city center.",
+      "price": 250,
+      "location": "New York",
+      "bedrooms": 3
+    },
+    {
+      "id": 2,
+      "image": "property2.jpg",
+      "title": "Modern Apartment",
+      "description": "A modern apartment with great amenities.",
+      "price": 300,
+      "location": "San Francisco",
+      "bedrooms": 2
+    }
+  ]
+
+  
+  
